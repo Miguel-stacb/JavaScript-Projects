@@ -12,5 +12,20 @@
             </button>
             <p id="Concatenate"></p>
             <p id="Concatenate" onclick="myFunction()">Click here!</p>
+        
+
+            <p>Call a function which performs a calculation and returns a result:</p>
+
+            <p id="demo"></p>
+            <script>
+                function Product(p1,p2){
+                    return p1 * p2;
+                }
+
+                let result = Product(4,3);
+                document.getElementById("demo").innerHTML=result;
+            </script>
+
         </body>
+
     </html>
