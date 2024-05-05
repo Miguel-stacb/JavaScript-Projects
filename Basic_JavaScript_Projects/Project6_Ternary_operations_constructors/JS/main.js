@@ -1,8 +1,8 @@
-function vote_Function() {
+function vote_Function() { //Example of ternary function
 
-    var Age, Can_Vote;
+    var Age, Can_Vote; // Variable assignment
     Age = document.getElementById("Age").value;
-    Can_Ride = (Age < 18) ? "You are too young":"You are old enough";
+    Can_Ride = (Age < 18) ? "You are too young":"You are old enough"; //Ternary
     document.getElementById("Vote").innerHTML = Can_Ride + " to vote.";
 }
 
@@ -21,7 +21,7 @@ function Vehicle (Make, Model, Year, Color) {
 
  }
 
- function Pet (Type, Race, Age, Color) {
+ function Pet (Type, Race, Age, Color) { //Example of constructor
 
     this.Pet_Type = Type;
     this.Pet_Race = Race;
@@ -37,7 +37,7 @@ function Vehicle (Make, Model, Year, Color) {
     document.getElementById("New_and_This").innerHTML = "My friend Tromom has a " + Trommon.Pet_Color + "-colored " + Trommon.Pet_Type + " which age is about " + Trommon.Pet_Age + " years old.";
  }
 
- function count_Function {
+ function count_Function() { // Example of Nested function
 
    document.getElementById("Nested_Function").innerHTML = Count();
    function Count() {
