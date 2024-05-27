@@ -1,0 +1,55 @@
+html {
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    padding-top: 30px;
+    width: 500px;
+    height: 60px;
+    font-size: 40px;
+    border: 0;
+
+}
+input:focus {
+    outline: none;
+}
+
+li {
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;/* Horizontally center the content */
+    justify-content: center;/* Vervtically center the content */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+    font-family: Verdana, Arial, Tahoma, Times New Roman;
+    font-size: 0.8 em;
+    word-spacing: 1 px;
+    line-height: 170%;
+}
+
+#Footer {
+    background-color: #004669;
+    font-family: Tahoma, Arial;
+    font-size: 0.7 em;
+    color: white;
+    position: fixed; /* Stick the footer to the bottom*/
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Make it span the entire width */
+    border: 1px solid black; /*Add a border */
+    padding: 10px; /*Add some padding for spacing */
+}
+.remove {
+    padding-bottom: 5px;
+}
