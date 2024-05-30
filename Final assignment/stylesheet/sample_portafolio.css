@@ -450,17 +450,17 @@ button:hover, .form-container .btn:hover {
 }
 @media screen and (min-width: 528px) and (max-width: 660px){
     p{
-        font-size: 3.5vw ;
+        font-size: 3.5vw;
     }
 }
 @media screen and (min-width: 661px) and (max-width: 799px){
     p{
-        font-size: 2.75vw ;
+        font-size: 2.75vw;
     }
 }
 @media screen and (min-width: 800px) and (max-width: 924px){
     p{
-        font-size: 2.5vw ;
+        font-size: 2.5vw;
     }
 }
 @media screen and (min-width: 925px) and (max-width: 1050px){
@@ -493,7 +493,7 @@ button:hover, .form-container .btn:hover {
 @media screen and (max-width: 1080px){
     .Navbar a {
         width: 20%; /*This sets each navbar link to 1/5 of the navbar */
-        font-size: 2.5 vw;
+        font-size: 2.5vw;
     }
 }
 /*Media rules to enlarge the font of the white text for smaller screens*/
@@ -501,7 +501,10 @@ button:hover, .form-container .btn:hover {
 @media screen and (max-width: 1080px){
     .quote {
         
-        font-size: 3.5 vw;
+        font-size: 3.5vw;
+    }
+    .white-text {
+        font-size: 4.5vw;
     }
 }
 /*Media rules to increase the size of the columns for larger screens */
